@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang="en" class="sidebar-visible no-js ayu">
+<html lang="en" class="sidebar-visible no-js navy">
     <head>
         <!-- Book generated using mdBook -->
         <meta charset="UTF-8">
@@ -46,7 +46,7 @@
         <!-- Provide site root to javascript -->
         <script type="text/javascript">
             var path_to_root = "";
-            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "ayu";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "navy";
         </script>
 
         <!-- Work around some values being stored in localStorage wrapped in quotes -->
@@ -72,7 +72,7 @@
             if (theme === null || theme === undefined) { theme = default_theme; }
             var html = document.querySelector('html');
             html.classList.remove('no-js')
-            html.classList.remove('ayu')
+            html.classList.remove('navy')
             html.classList.add(theme);
             html.classList.add('js');
         </script>
@@ -91,7 +91,7 @@
 
         <nav id="sidebar" class="sidebar" aria-label="Table of contents">
             <div class="sidebar-scrollbox">
-                <ol class="chapter"><li class="chapter-item expanded "><a href="00_about.html"><strong aria-hidden="true">1.</strong> About &amp; Links</a></li><li class="chapter-item expanded "><a href="01_example.html"><strong aria-hidden="true">2.</strong> Example Page</a></li></ol>
+                <ol class="chapter"><li class="chapter-item expanded "><a href="00_about.html"><strong aria-hidden="true">1.</strong> Quickstart Guide</a></li><li class="chapter-item expanded "><a href="01_example.html"><strong aria-hidden="true">2.</strong> Example Page</a></li></ol>
             </div>
             <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
         </nav>
@@ -113,8 +113,8 @@
                             <li role="none"><button role="menuitem" class="theme" id="light">Light</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
                             <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
-                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
                         </ul>
                         
                         <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
@@ -161,19 +161,30 @@
 
                 <div id="content" class="content">
                     <main>
-                        <h1><a class="header" href="#about" id="about">About</a></h1>
-<h2><a class="header" href="#setup-guide" id="setup-guide">Setup guide</a></h2>
-<h2><a class="header" href="#how-to-add-page-to-the-book" id="how-to-add-page-to-the-book">How to add page to the book</a></h2>
+                        <h1><a class="header" href="#quickstart-guide" id="quickstart-guide">Quickstart Guide</a></h1>
+<h3><a class="header" href="#setup-repository" id="setup-repository">Setup repository</a></h3>
 <ol>
-<li>Add new .md file to  <code>src</code> folder, e.g <code>01_example.md</code></li>
-<li>Add new item to the list in <a href="./SUMMARY.html"><code>SUMMARY.md</code></a>, e.g
-<code>- [Example Page](./01_example.md)</code></li>
-<li>Push your changes and enjoy the result :)</li>
+<li>On GitHub.com, navigate to the <a href="https://github.com/BaLiKfromUA/mdbook-template">main page</a> of the repository.</li>
+<li>Above the file list, click <strong>Use this template</strong>.
+<img src="https://docs.github.com/assets/cb-36544/images/help/repository/use-this-template-button.png" alt="" /></li>
+<li>Type a name for your repository, and an optional description, choose owner, repository visibility, etc.</li>
+<li>Edit <strong>book.toml</strong>: change <code>authors</code> and <code>git-repository-url</code> fields.</li>
+<li>Commit&amp;Push your changes.</li>
+<li>Setup GitHub pages for your repository (<em>quickstart guide can be found below</em>).
+<img src="./img/github-pages.png" alt="" /></li>
+<li>Enjoy! :)</li>
 </ol>
-<h2><a class="header" href="#useful-links" id="useful-links">Useful links:</a></h2>
+<h3><a class="header" href="#how-to-add-new-page-to-your-book" id="how-to-add-new-page-to-your-book">How to add new page to your book</a></h3>
+<ol>
+<li>Add new <strong>.md</strong> file to  <code>src</code> folder, e.g <code>01_example.md</code></li>
+<li>Add new item to the list in <a href="https://github.com/BaLiKfromUA/mdbook-template/blob/main/src/SUMMARY.md"><code>SUMMARY.md</code></a>, e.g
+<code>- [Example Page](./01_example.md)</code></li>
+<li>Commit&amp;Push your changes and enjoy the result :)</li>
+</ol>
+<h3><a class="header" href="#useful-links" id="useful-links">Useful links:</a></h3>
 <ul>
 <li><a href="https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">Basic writing and formatting syntax of .md files</a></li>
-<li><a href="https://docs.github.com/en/pages">GitHub Pages Doc</a></li>
+<li><a href="https://docs.github.com/en/pages/quickstart">GitHub Pages Quickstart Guide</a></li>
 </ul>
 <h1><a class="header" href="#example-page" id="example-page">Example page</a></h1>
 <h2><a class="header" href="#text" id="text">Text:</a></h2>
