@@ -4,13 +4,16 @@
 
 Hello, World!
 
-
 ## Code:
 
-```python3
+```python
 print("Hello, World!")
 ```
 
 ## Link:
 
 [Click me!](https://youtu.be/dQw4w9WgXcQ)
+
+### Image:
+
+![This is an image](https://myoctocat.com/assets/images/base-octocat.svg)
