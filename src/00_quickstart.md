@@ -6,7 +6,7 @@
 2. Above the file list, click **Use this template**.
 ![](https://docs.github.com/assets/cb-36544/images/help/repository/use-this-template-button.png)
 3. Type a name for your repository, and an optional description, choose owner, repository visibility, etc.
-4. Edit **book.toml**: change `authors` and `git-repository-url` fields.
+4. Edit **book.toml**: change `authors`, `git-repository-url` and `title` fields.
 5. Commit&Push your changes.
 6. Setup GitHub pages for your repository (_quickstart guide can be found below_).
 ![](./img/github-pages.png)

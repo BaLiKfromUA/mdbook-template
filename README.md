@@ -2,7 +2,7 @@
 
 Basic template for deploying of mdbook via GitHub Actions.
 
-Mainly used by me for my learning notes :)
+Mainly used by me for learning notes :)
 
 
 ## Usage
