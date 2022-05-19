@@ -6,5 +6,5 @@ src = "src"
 title = "mdbook template"
 
 [output.html]
-default-theme = "ayu"
+default-theme = "navy"
 git-repository-url = "https://github.com/BaLiKfromUA/mdbook-template"
