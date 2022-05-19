@@ -20,6 +20,6 @@
 3. Commit&Push your changes and enjoy the result :)
 
 ### Useful links:
-
+- [mdBook Documentation](https://rust-lang.github.io/mdBook/index.html)
 - [Basic writing and formatting syntax of .md files](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 - [GitHub Pages Quickstart Guide](https://docs.github.com/en/pages/quickstart)
